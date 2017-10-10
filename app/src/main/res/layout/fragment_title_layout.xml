@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_title_rl"
+    style="@style/Title_layout">
+
+    <ImageView
+        android:id="@+id/fragment_back"
+        style="@style/Title_back" />
+
+    <TextView
+        android:id="@+id/fragment_title"
+        style="@style/Title_text"
+        tools:text="登录" />
+
+    <ImageView
+        android:id="@+id/fragment_title_right"
+        style="@style/Title_right_iv" />
+
+    <TextView
+        android:id="@+id/fragment_title_right_tv"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:gravity="right|center_vertical"
+        style="@style/Title_right"
+        tools:text="账单" />
+
+
+</RelativeLayout>
+
+
